@@ -11,4 +11,5 @@
 6. More than twelve characters includes a number.
 7. More than eight characters includes a number and special character.
 
-![Screenshot](/images/screenshot.PNG)
+###### My results:
+![ScreenShot](images/screenshot.PNG)
