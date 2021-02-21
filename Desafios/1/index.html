@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Desafio 1</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">
+        <script type="text/javascript" src="js/main.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Benne&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <div id="caixa">
+            <h2>Is your password strong enough?</h2><br>
+            <h4>Write down the password you usually use to see how much it scores from 1 to 7</h4>
+            <!--onsubmit="return conferesenha()"-->
+                <input type="text" id="senha" name="senha" placeholder="Let me show you my super password" size="40"> <br>
+                <!--<input type="submit" value="Verificar senha">-->
+                <span id="botao_area"><button id="botao" onclick="conferesenha()">Verify my password <span class="material-icons">double_arrow</span></button></span>
+            
+            <br>
+            <p id="resultado_senha"></p>
+        </div>
+    </body>
+</html>

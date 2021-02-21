@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	width: 100%;
+	min-height: 100vh; /* o vh significa utilização de 100% da altura do viewport e o vw seria no width */
+	background-color: #EBB3A9;/* rgb(243, 243, 243);*/
+	margin: 0;
+	padding: 0;
+    align-items: center;
+	display: flex;
+	/*justify-content: center;*/
+    justify-content: space-around;
+	flex-direction: column; 
+}
+
+body h2, h4, p{
+    text-align: center;
+}
+
+#caixa{
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+
+    padding: 30px 60px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0.5px 0.5px 8px 2px #D48E8E;
+}
+
+#caixa h2{
+    font-family: 'Roboto', sans-serif;
+    color: #6B362D;
+}
+
+#caixa h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6B362D;
+}
+
+#senha{
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+
+    margin-top: 40px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    border-width: 0px;
+    box-shadow: 0.5px 0.5px 3px 1px lightgray;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#botao_area{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+#botao_area span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    /*justify-content: space-between;*/
+}
+
+#botao{
+    cursor: pointer;
+    width: 300px;
+    vertical-align: middle;
+
+    /*display: flex;*/
+    display: inline-block;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+
+    margin-top: 0px;
+    align-items: center;
+    background-color: #91B0EB;
+    padding: 10px 40px;
+    border-radius: 14px;
+    border-width: 2px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #223C6B;
+}
+
+#botao:hover {
+    background-color: #fff;
+    transition-duration: 0.4s;
+}
+
+#botao:visited{
+    border-width: 0px;
+}
+
+#resultado_senha{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6B362D;
+}
